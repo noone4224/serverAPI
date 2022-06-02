@@ -35,7 +35,7 @@ def sendMessage(number):
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
-                                body='Tu gas está próximo a vencer, por favor acude a tu banco más cercano a pagarlo!',
+                                body='Tu gas esta proximo a vencer, por favor acude a tu banco mas cercano a pagarlo!',
                                 from_='whatsapp:+14155238886',
                                 to='whatsapp:+521'+number
                             )
